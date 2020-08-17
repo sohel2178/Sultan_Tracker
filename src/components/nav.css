@@ -1,0 +1,13 @@
+.navBarPos {
+  position: fixed !important;
+}
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: #fff;
+}
+.MuiTypography-root {
+}
