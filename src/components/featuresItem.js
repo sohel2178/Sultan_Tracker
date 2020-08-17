@@ -10,7 +10,7 @@ const FeatureItem = ({ image, title, description, index }) => {
       <Box display="flex" style={{ marginTop: 20 }}>
         <Box
           data-aos="fade-right"
-          // data-aos-delay="100"
+          data-aos-delay="500"
           display="flex"
           flexGrow="1"
           style={{ maxWidth: "50%", minWidth: "50%" }}

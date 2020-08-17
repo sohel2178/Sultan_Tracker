@@ -33,7 +33,7 @@ const OurService = () => {
               xs={4}
               key={index}
               data-aos="fade-up"
-              style={{ padding: 10 }}
+              style={{ padding: 15 }}
             >
               <Box display="flex" flexDirection="column" alignItems="center">
                 <Avatar

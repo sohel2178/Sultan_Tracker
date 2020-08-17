@@ -101,3 +101,27 @@ export const ServiceData = [
     title: "Live Tracking",
   },
 ];
+
+export const PricingData = [
+  {
+    image: Live,
+    title: "Bike",
+    label: "Device Price",
+    price: "BDT 4500",
+    Subs: "Monthly Subscription 250",
+  },
+  {
+    image: Live,
+    title: "Bike",
+    label: "Device Price",
+    price: "BDT 4500",
+    Subs: "Monthly Subscription 250",
+  },
+  {
+    image: Live,
+    title: "Bike",
+    label: "Device Price",
+    price: "BDT 4500",
+    Subs: "Monthly Subscription 250",
+  },
+];
