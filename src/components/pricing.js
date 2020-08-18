@@ -27,7 +27,7 @@ const Pricing = () => {
                   style={{
                     height: 400,
                     width: 275,
-                    backgroundColor: grey[200],
+                    backgroundColor: "#2A2E43",
                   }}
                 >
                   <img
@@ -39,18 +39,31 @@ const Pricing = () => {
                     }}
                   ></img>
 
-                  <Typography variant="h4" style={{ textAlign: "center" }}>
+                  <Typography
+                    variant="h4"
+                    style={{ textAlign: "center", color: "#FFFFFF" }}
+                  >
                     {item.title}
                   </Typography>
-                  <Typography variant="h6" style={{ textAlign: "center" }}>
+                  <Typography
+                    variant="h6"
+                    style={{ textAlign: "center", color: "#FFFFFF" }}
+                  >
                     {item.label}
                   </Typography>
-                  <Typography variant="h5" style={{ textAlign: "center" }}>
+                  <Typography
+                    variant="h5"
+                    style={{ textAlign: "center", color: "#FFFFFF" }}
+                  >
                     {item.price}
                   </Typography>
                   <Typography
                     variant="h5"
-                    style={{ textAlign: "center", margin: 50 }}
+                    style={{
+                      textAlign: "center",
+                      margin: 50,
+                      color: "#FFFFFF",
+                    }}
                   >
                     {item.Subs}
                   </Typography>
