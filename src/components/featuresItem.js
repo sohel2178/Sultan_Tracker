@@ -2,38 +2,55 @@ import React, { Fragment } from "react";
 import { Box, Typography } from "@material-ui/core";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { grey } from "@material-ui/core/colors";
 
 AOS.init();
-const FeatureItem = ({ image, title, description, index }) => {
+const FeatureItem = ({ image, title, description, animation, index }) => {
   return (
-    <Fragment>
-      <Box display="flex" style={{ marginTop: 20 }}>
-        <Box
-          data-aos="fade-right"
-          display="flex"
-          flexGrow="1"
-          style={{ maxWidth: "50%", minWidth: "50%" }}
-          order={2}
-        >
-          <img src={image} style={{ width: "80%" }} />
-        </Box>
-
-        <Box
-          display="flex"
-          flexDirection="column"
-          flexGrow="1"
-          alignItems="center"
-          justifyContent="center"
-          style={{ padding: 10 }}
-          order={index % 2 === 0 ? 3 : 1}
-        >
-          <Typography variant="h6">{title}</Typography>
-          <Typography variant="body1" style={{ marginTop: 10 }}>
-            {description}
-          </Typography>
-        </Box>
+    <Box
+      data-aos={animation}
+      display="flex"
+      style={{
+        marginTop: 20,
+        padding: 10,
+        backgroundColor: index % 2 === 0 ? grey[300] : grey[100],
+      }}
+    >
+      <Box
+        display="flex"
+        flexGrow="1"
+        style={{ maxWidth: "50%", minWidth: "50%" }}
+        order={2}
+      >
+        <img src={image} style={{ width: "80%" }} />
       </Box>
-    </Fragment>
+
+      <Box
+        display="flex"
+        flexDirection="column"
+        flexGrow="1"
+        alignItems="center"
+        justifyContent="center"
+        style={{ padding: 10 }}
+        order={index % 2 === 0 ? 3 : 1}
+      >
+        <Typography
+          variant="h6"
+          style={{ color: index % 2 === 0 ? grey[600] : grey[800] }}
+        >
+          {title}
+        </Typography>
+        <Typography
+          variant="body1"
+          style={{
+            marginTop: 10,
+            color: index % 2 === 0 ? grey[600] : grey[800],
+          }}
+        >
+          {description}
+        </Typography>
+      </Box>
+    </Box>
   );
 };
 

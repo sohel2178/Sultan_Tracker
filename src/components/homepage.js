@@ -5,19 +5,28 @@ import bg1 from "./Image/bg1.png";
 import OurService from "./our_Service";
 import FeatureItem from "./featuresItem";
 import Pricing from "./pricing";
-import FAG from "./fag";
+import Fag from "./fag";
+import Team from "./Team";
 
 // import MySlider from "./slider";
 
-import { featuredData, ServiceData } from "../data";
+import { featuredData } from "../data";
+import { grey } from "@material-ui/core/colors";
+import TopClients from "./topclients";
 // import {  } from "../servicedata";
 
 const Homepage = () => {
   return (
-    <div>
+    <Box style={{ maxWidth: "100vw", overflow: "hidden" }}>
       <Nav />
-      <Box display="flex" style={{ height: "100vh" }}>
-        <img src={bg1} style={{ width: "100%" }} />
+      <Box
+        display="flex"
+        style={{ height: "100vh", maxWidth: "100%", overflow: "hidden" }}
+      >
+        <img
+          src={bg1}
+          style={{ width: "100%", maxWidth: "100%", overflow: "hidden" }}
+        />
       </Box>
 
       <Box
@@ -28,13 +37,18 @@ const Homepage = () => {
         <OurService />
       </Box>
 
-      <Box display="flex" flexDirection="column" style={{ margin: 20 }}>
+      <Box
+        display="flex"
+        flexDirection="column"
+        style={{ margin: 20, backgroundColor: grey[100] }}
+      >
         {featuredData.map((item, index) => (
           <FeatureItem
             key={index}
             image={item.image}
             title={item.title}
             description={item.description}
+            animation={item.animation}
             index={index}
           />
         ))}
@@ -47,9 +61,19 @@ const Homepage = () => {
         <Pricing />
       </Box>
       <Box display="flex" flexDirection="column" style={{ height: 500 }}>
-        <FAG />
+        <Fag />
       </Box>
-    </div>
+      <Box
+        display="flex"
+        flexDirection="column"
+        style={{ height: 500, padding: 10 }}
+      >
+        <Team />
+      </Box>
+      <Box display="flex" flexDirection="column" style={{ height: 500 }}>
+        <TopClients />
+      </Box>
+    </Box>
   );
 };
 

@@ -7,11 +7,9 @@ const theme = createMuiTheme({
     primary: grey,
     secondary: green,
   },
-  typography: {
-    h6: {
-      fontSize: "0.5rem",
-    },
-  },
+  /* typography: {
+    fontFamily: "'Raleway Dots', cursive",
+  }, */
 });
 
 export default theme;

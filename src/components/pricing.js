@@ -2,15 +2,17 @@ import React, { Fragment } from "react";
 import { Typography, Box } from "@material-ui/core";
 
 import Card from "@material-ui/core/Card";
-import Live from "./Image/live2.png";
-import Grid from "@material-ui/core/Grid";
-import Avatar from "@material-ui/core/Avatar";
-import { grey } from "@material-ui/core/colors";
-import { PricingData } from "../data";
 
+import Grid from "@material-ui/core/Grid";
+
+import { PricingData } from "../data";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 const Pricing = () => {
   return (
-    <Fragment>
+    <div data-aos="flip-left">
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h2" style={{ padding: 50 }}>
           {" "}
@@ -21,7 +23,7 @@ const Pricing = () => {
       <Grid container style={{ width: "100%", overflow: "hidden" }}>
         {PricingData.map((item, index) => {
           return (
-            <Grid item xs={4} style={{ padding: 10 }}>
+            <Grid key={index} item xs={4} style={{ padding: 10 }}>
               <Box display="flex" flexDirection="column" alignItems="center">
                 <Card
                   style={{
@@ -73,7 +75,7 @@ const Pricing = () => {
           );
         })}
       </Grid>
-    </Fragment>
+    </div>
   );
 };
 

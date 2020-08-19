@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { Typography, Box } from "@material-ui/core";
-// import {} from "@material-ui/core/Icon";
-import { makeStyles } from "@material-ui/core/styles";
+import { useTheme } from "@material-ui/core/styles";
+
 import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
+
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import { grey } from "@material-ui/core/colors";
@@ -13,6 +13,7 @@ import { ServiceData } from "../data";
 
 AOS.init();
 const OurService = () => {
+  const theme = useTheme();
   return (
     <Fragment>
       <Box display="flex" flexDirection="column" alignItems="center">
@@ -20,12 +21,7 @@ const OurService = () => {
         <Typography variant="h6"> OurService </Typography>
       </Box>
 
-      <Grid
-        container
-        data-aos="fade-up"
-        data-aos-delay="100"
-        style={{ width: "100%", overflow: "hidden" }}
-      >
+      <Grid container style={{ width: "100%", overflow: "hidden" }}>
         {ServiceData.map((item, index) => {
           return (
             <Grid
