@@ -7,9 +7,16 @@ const theme = createMuiTheme({
     primary: grey,
     secondary: green,
   },
-  /* typography: {
-    fontFamily: "'Raleway Dots', cursive",
-  }, */
+  typography: {
+    fontFamily: "Libre Caslon Display', serif",
+  },
+  h6: {
+    fontFamily: " 'Do Hyeon'",
+  },
+  h4: {
+    fontFamily: "Libre Caslon Display",
+    fontSize: "0.5rem",
+  },
 });
 
 export default theme;

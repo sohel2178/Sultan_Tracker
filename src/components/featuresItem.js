@@ -11,7 +11,7 @@ const FeatureItem = ({ image, title, description, animation, index }) => {
       data-aos={animation}
       display="flex"
       style={{
-        marginTop: 20,
+        margin: 10,
         padding: 10,
         backgroundColor: index % 2 === 0 ? grey[300] : grey[100],
       }}
