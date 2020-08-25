@@ -11,6 +11,7 @@ import client from "./components/Image/client.png";
 import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
 import rev3 from "./components/Image/rev3.webp";
+import rev4 from "./components/Image/photo.webp";
 
 export const featuredData = [
   {
@@ -59,7 +60,7 @@ export const featuredData = [
     image: Trafic,
     title: "Traffic Update",
     description:
-      "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing",
+      "Always know what's happening on the road with Sultan Tracker .It tells you about traffic constructions,Crashes and more in real time",
     animation: "fade-right",
   },
   {
@@ -73,14 +74,21 @@ export const featuredData = [
     image: Milage,
     title: "Emergency Button",
     description:
-      " If the driver is in danger, Emergency button will help him to inform you.",
+      " When your driver or anybody are in danger and need help just pressing a button and ask for help",
     animation: "fade-right",
   },
   {
     image: Milage,
-    title: "Geo-Fence",
+    title: "Restrict Boundary",
     description:
       " Geo-Fence is a virtual perimeter for a real world geographic and .Its a virtual boundary system, which a vehicle can be ket safe by creating a virtual boundary around a paticular area on place If you leave the car in a specific area or place and turn on the geofence through the mobile app, the car will leave that place and the alert will be sent to the mobile through which the car can be rescued by taking immediate action or by turning off the car engine via sms. ",
+    animation: "fade-right",
+  },
+  {
+    image: Milage,
+    title: "Power Cut From App and Sms",
+    description:
+      " This effective alert will let you know when somebody tries to remove the device ",
     animation: "fade-right",
   },
 ];
@@ -131,7 +139,7 @@ export const ServiceData = [
   },
   {
     image: Live,
-    title: "Fuel Cut From App and Sms",
+    title: "Power Cut From App and Sms",
   },
 ];
 
@@ -162,32 +170,32 @@ export const TeamData = [
   {
     image: Car,
     name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    post: " Chairmen",
   },
   {
     image: Car,
-    name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    name: " Saimul Hoque ",
+    post: " Android Developer",
   },
   {
     image: Car,
-    name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    name: " Abid A.Sobhan",
+    post: " Ios Developer",
   },
   {
     image: Car,
-    name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    name: " Abu Kashem ",
+    post: " Cheif Technician",
   },
   {
     image: Car,
-    name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    name: " Shamim Ahmed ",
+    post: " Iot Engineer",
   },
   {
     image: Car,
-    name: " Sohel Ahmed ",
-    post: " Senior Citizen",
+    name: " Rumon  ",
+    post: "Web Developer",
   },
 ];
 
@@ -218,5 +226,12 @@ export const Review = [
     date: "June 29, 2020",
     review:
       "This tracker helped me to secure my vehicle without any tension. Additionally, I can get updates about my vehicle anytime, anywhere on my phone. Super service",
+  },
+  {
+    image: rev4,
+    name: "Md Bashar",
+    date: "June 24, 2020",
+    review:
+      "খুবই ভাল সার্ভিস, এটা ব্যাবহার করে সহজেই আমি আমার গাড়ির লোকেশন ট্র‍্যাক করতে পারি, সবচেয়ে বড় বিষয় যে এটা রিয়াল টাইম শো করে।",
   },
 ];
