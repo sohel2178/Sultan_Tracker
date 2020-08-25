@@ -9,7 +9,7 @@ import { TeamData } from "../data";
 
 const Team = () => {
   return (
-    <Box>
+    <Box id="team">
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h2">Meet Our Team</Typography>
       </Box>

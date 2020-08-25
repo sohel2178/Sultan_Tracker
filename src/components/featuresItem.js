@@ -8,6 +8,7 @@ AOS.init();
 const FeatureItem = ({ image, title, description, animation, index }) => {
   return (
     <Box
+      id={title}
       data-aos={animation}
       display="flex"
       style={{

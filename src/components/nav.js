@@ -7,8 +7,9 @@ import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Image from "./Image/logo.png";
-import { makeStyles } from "@material-ui/core/styles";
+
 import Grid from "@material-ui/core/Grid";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -40,7 +41,12 @@ const Nav = (props) => {
     <React.Fragment>
       <CssBaseline />
       <ElevationScroll {...props}>
-        <AppBar style={{ background: "white", boxShadow: "initial" }}>
+        <AppBar
+          style={{
+            background: "white",
+            boxShadow: "initial",
+          }}
+        >
           <Toolbar>
             <img src={Image} alt="logo" style={{ height: "80px" }} />
 
@@ -51,11 +57,87 @@ const Nav = (props) => {
               alignItems="center"
             >
               <Button color="Black">Home</Button>
-              <Button color="Black">Features</Button>
-              <Button color="Black">Screenshoot</Button>
-              <Button color="Black">Testimonial</Button>
-              <Button color="Black">App Download</Button>
-              <Button color="Black">Contact</Button>
+              <Button color="Black">
+                <Link
+                  style={{ activeClass: "1px solid #333" }}
+                  activeClass="active"
+                  to="Service"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Our Service
+                </Link>
+              </Button>
+
+              <Button color="Black">
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="pricing"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Pricing
+                </Link>
+              </Button>
+              <Button color="Black">
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="review"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Review
+                </Link>
+              </Button>
+              <Button color="Black">
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="team"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Teams
+                </Link>
+              </Button>
+              <Button color="Black">
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="client"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Top Clients
+                </Link>
+              </Button>
+              <Button color="Black">
+                {" "}
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Contact
+                </Link>
+              </Button>
+              <Button> Login</Button>
+              <Button> SignUp</Button>
             </Grid>
           </Toolbar>
         </AppBar>

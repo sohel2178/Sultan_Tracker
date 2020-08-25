@@ -13,7 +13,12 @@ AOS.init();
 const Pricing = () => {
   return (
     <div data-aos="flip-left">
-      <Box display="flex" flexDirection="column" alignItems="center">
+      <Box
+        id="pricing"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+      >
         <Typography variant="h2" style={{ padding: 50 }}>
           {" "}
           Pricing Plans{" "}

@@ -8,7 +8,7 @@ import { Client } from "../data";
 
 const TopClients = () => {
   return (
-    <Box>
+    <Box id="client">
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography variant="h2">Our Top Clients</Typography>
       </Box>

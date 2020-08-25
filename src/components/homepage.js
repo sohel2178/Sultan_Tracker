@@ -1,12 +1,13 @@
 import React from "react";
 import { Box } from "@material-ui/core";
 import Nav from "./nav";
-import bg1 from "./Image/bg1.png";
+import Slider from "./Slider";
 import OurService from "./our_Service";
 import FeatureItem from "./featuresItem";
 import Pricing from "./pricing";
-import Fag from "./fag";
+import Review from "./review";
 import Team from "./Team";
+import Contact from "./contact";
 
 // import MySlider from "./slider";
 
@@ -19,20 +20,18 @@ const Homepage = () => {
   return (
     <Box style={{ maxWidth: "100vw", overflow: "hidden" }}>
       <Nav />
+
       <Box
         display="flex"
         style={{ height: "100vh", maxWidth: "100%", overflow: "hidden" }}
       >
-        <img
-          src={bg1}
-          style={{ width: "100%", maxWidth: "100%", overflow: "hidden" }}
-        />
+        <Slider />
       </Box>
 
       <Box
         display="flex"
         flexDirection="column"
-        style={{ height: 600, margin: 20 }}
+        style={{ height: 800, margin: 20 }}
       >
         <OurService />
       </Box>
@@ -40,10 +39,11 @@ const Homepage = () => {
       <Box
         display="flex"
         flexDirection="column"
-        style={{ margin: 20, backgroundColor: grey[100] }}
+        style={{ backgroundColor: grey[100] }}
       >
         {featuredData.map((item, index) => (
           <FeatureItem
+            style={{ margin: 30 }}
             key={index}
             image={item.image}
             title={item.title}
@@ -61,7 +61,7 @@ const Homepage = () => {
         <Pricing />
       </Box>
       <Box display="flex" flexDirection="column" style={{ height: 500 }}>
-        <Fag />
+        <Review />
       </Box>
       <Box
         display="flex"
@@ -72,6 +72,9 @@ const Homepage = () => {
       </Box>
       <Box display="flex" flexDirection="column" style={{ height: 500 }}>
         <TopClients />
+      </Box>
+      <Box display="flex" flexDirection="column" style={{ height: 500 }}>
+        <Contact />
       </Box>
     </Box>
   );
