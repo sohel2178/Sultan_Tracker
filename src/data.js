@@ -17,6 +17,7 @@ import serviceTrack from "./components/Image/TRACK.png";
 import serviceResrict from "./components/Image/restrict.png";
 import serviceTraffic from "./components/Image/439882.png";
 import servicePower from "./components/Image/power.png";
+import serviceSharing from "./components/Image/sharing.png";
 import client from "./components/Image/client.png";
 import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
@@ -100,6 +101,13 @@ export const featuredData = [
   },
   {
     image: Milage,
+    title: "Vehicle Sharing",
+    description:
+      " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing ",
+    animation: "fade-right",
+  },
+  {
+    image: Milage,
     title: "Power Cut From App and Sms",
     description:
       " This effective alert will let you know when somebody tries to remove the device ",
@@ -148,7 +156,7 @@ export const ServiceData = [
     title: "Restrict Boundary",
   },
   {
-    image: Live,
+    image: serviceSharing,
     title: "Vehicle Sharing",
   },
   {
