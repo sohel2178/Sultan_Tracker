@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "700b4bc5cc4729450fea3cfa0d6fad38",
+    "revision": "e3002faf4a533a9c26b1c71cc3eed28b",
     "url": "/Sultan_Tracker/index.html"
   },
   {
-    "revision": "743027091944510a4b98",
+    "revision": "14b6342193631d559a09",
     "url": "/Sultan_Tracker/static/css/2.f527e924.chunk.css"
   },
   {
-    "revision": "b1070c95a3c15e1811fe",
+    "revision": "7b5b99b6cd97180246aa",
     "url": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "743027091944510a4b98",
-    "url": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js"
+    "revision": "14b6342193631d559a09",
+    "url": "/Sultan_Tracker/static/js/2.1ee14657.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js.LICENSE.txt"
+    "url": "/Sultan_Tracker/static/js/2.1ee14657.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1070c95a3c15e1811fe",
-    "url": "/Sultan_Tracker/static/js/main.232022f3.chunk.js"
+    "revision": "7b5b99b6cd97180246aa",
+    "url": "/Sultan_Tracker/static/js/main.49b4c60f.chunk.js"
   },
   {
     "revision": "9f4eaeee746503a539d1",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a303e79db2b67c364340fcfa3a1ee24",
     "url": "/Sultan_Tracker/static/media/bg1.9a303e79.png"
+  },
+  {
+    "revision": "f04af6985de92cdd1c550787b7296635",
+    "url": "/Sultan_Tracker/static/media/feat1.f04af698.png"
   },
   {
     "revision": "1bab5d3e706e991a7cf79a7be3e186b3",
@@ -112,11 +116,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sultan_Tracker/static/media/speed.cb1918c7.png"
   },
   {
+    "revision": "3ea4034e0421371061f5a195450d84c3",
+    "url": "/Sultan_Tracker/static/media/speed2.3ea4034e.png"
+  },
+  {
     "revision": "6e3e19da32ff60a4de3c4c0f1dda8b43",
     "url": "/Sultan_Tracker/static/media/summery.6e3e19da.png"
   },
   {
-    "revision": "b4fe5412e6e3c754fa923ed9b15ab7dc",
-    "url": "/Sultan_Tracker/static/media/traffic.b4fe5412.png"
+    "revision": "48535d07353042e2ca081de6b975f4c8",
+    "url": "/Sultan_Tracker/static/media/traffic.48535d07.png"
   }
 ]);

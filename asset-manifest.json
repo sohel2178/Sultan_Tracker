@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Sultan_Tracker/static/js/main.232022f3.chunk.js",
-    "main.js.map": "/Sultan_Tracker/static/js/main.232022f3.chunk.js.map",
+    "main.js": "/Sultan_Tracker/static/js/main.49b4c60f.chunk.js",
+    "main.js.map": "/Sultan_Tracker/static/js/main.49b4c60f.chunk.js.map",
     "runtime-main.js": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js",
     "runtime-main.js.map": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js.map",
     "static/css/2.f527e924.chunk.css": "/Sultan_Tracker/static/css/2.f527e924.chunk.css",
-    "static/js/2.3aa1ad8c.chunk.js": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js",
-    "static/js/2.3aa1ad8c.chunk.js.map": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js.map",
+    "static/js/2.1ee14657.chunk.js": "/Sultan_Tracker/static/js/2.1ee14657.chunk.js",
+    "static/js/2.1ee14657.chunk.js.map": "/Sultan_Tracker/static/js/2.1ee14657.chunk.js.map",
     "index.html": "/Sultan_Tracker/index.html",
-    "precache-manifest.ef57243cfcb10c255b51b1230a89ebf2.js": "/Sultan_Tracker/precache-manifest.ef57243cfcb10c255b51b1230a89ebf2.js",
+    "precache-manifest.6c2f28eff2cfbd219185d7055b6f10a6.js": "/Sultan_Tracker/precache-manifest.6c2f28eff2cfbd219185d7055b6f10a6.js",
     "service-worker.js": "/Sultan_Tracker/service-worker.js",
     "static/css/2.f527e924.chunk.css.map": "/Sultan_Tracker/static/css/2.f527e924.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3aa1ad8c.chunk.js.LICENSE.txt": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js.LICENSE.txt",
+    "static/js/2.1ee14657.chunk.js.LICENSE.txt": "/Sultan_Tracker/static/js/2.1ee14657.chunk.js.LICENSE.txt",
     "static/media/abid.jpg": "/Sultan_Tracker/static/media/abid.14a2ca8e.jpg",
     "static/media/alerts.png": "/Sultan_Tracker/static/media/alerts.7fc858bf.png",
     "static/media/bg1.png": "/Sultan_Tracker/static/media/bg1.9a303e79.png",
+    "static/media/feat1.png": "/Sultan_Tracker/static/media/feat1.f04af698.png",
     "static/media/fuel.png": "/Sultan_Tracker/static/media/fuel.1bab5d3e.png",
     "static/media/live.png": "/Sultan_Tracker/static/media/live.617dd1fe.png",
     "static/media/live2.png": "/Sultan_Tracker/static/media/live2.61cd43aa.png",
@@ -32,14 +33,15 @@
     "static/media/shohel.jpg": "/Sultan_Tracker/static/media/shohel.21c744eb.jpg",
     "static/media/slick-theme.css": "/Sultan_Tracker/static/media/slick.f97e3bbf.svg",
     "static/media/speed.png": "/Sultan_Tracker/static/media/speed.cb1918c7.png",
+    "static/media/speed2.png": "/Sultan_Tracker/static/media/speed2.3ea4034e.png",
     "static/media/summery.png": "/Sultan_Tracker/static/media/summery.6e3e19da.png",
-    "static/media/traffic.png": "/Sultan_Tracker/static/media/traffic.b4fe5412.png"
+    "static/media/traffic.png": "/Sultan_Tracker/static/media/traffic.48535d07.png"
   },
   "entrypoints": [
     "static/js/runtime-main.48b5f8d0.js",
     "static/css/2.f527e924.chunk.css",
-    "static/js/2.3aa1ad8c.chunk.js",
+    "static/js/2.1ee14657.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.232022f3.chunk.js"
+    "static/js/main.49b4c60f.chunk.js"
   ]
 }
