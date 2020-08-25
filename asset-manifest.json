@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Sultan_Tracker/static/js/main.7922586e.chunk.js",
-    "main.js.map": "/Sultan_Tracker/static/js/main.7922586e.chunk.js.map",
+    "main.js": "/Sultan_Tracker/static/js/main.232022f3.chunk.js",
+    "main.js.map": "/Sultan_Tracker/static/js/main.232022f3.chunk.js.map",
     "runtime-main.js": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js",
     "runtime-main.js.map": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js.map",
     "static/css/2.f527e924.chunk.css": "/Sultan_Tracker/static/css/2.f527e924.chunk.css",
     "static/js/2.3aa1ad8c.chunk.js": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js",
     "static/js/2.3aa1ad8c.chunk.js.map": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js.map",
     "index.html": "/Sultan_Tracker/index.html",
-    "precache-manifest.40a99da5e7ff454b5a592c6d35541ff2.js": "/Sultan_Tracker/precache-manifest.40a99da5e7ff454b5a592c6d35541ff2.js",
+    "precache-manifest.ef57243cfcb10c255b51b1230a89ebf2.js": "/Sultan_Tracker/precache-manifest.ef57243cfcb10c255b51b1230a89ebf2.js",
     "service-worker.js": "/Sultan_Tracker/service-worker.js",
     "static/css/2.f527e924.chunk.css.map": "/Sultan_Tracker/static/css/2.f527e924.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.3aa1ad8c.chunk.js.LICENSE.txt": "/Sultan_Tracker/static/js/2.3aa1ad8c.chunk.js.LICENSE.txt",
-    "static/media/abid.jpg": "/Sultan_Tracker/static/media/abid.f6ade3e9.jpg",
+    "static/media/abid.jpg": "/Sultan_Tracker/static/media/abid.14a2ca8e.jpg",
     "static/media/alerts.png": "/Sultan_Tracker/static/media/alerts.7fc858bf.png",
     "static/media/bg1.png": "/Sultan_Tracker/static/media/bg1.9a303e79.png",
-    "static/media/fuel.png": "/Sultan_Tracker/static/media/fuel.56a46fd1.png",
+    "static/media/fuel.png": "/Sultan_Tracker/static/media/fuel.1bab5d3e.png",
     "static/media/live.png": "/Sultan_Tracker/static/media/live.617dd1fe.png",
     "static/media/live2.png": "/Sultan_Tracker/static/media/live2.61cd43aa.png",
     "static/media/logo.png": "/Sultan_Tracker/static/media/logo.307995d6.png",
@@ -27,7 +27,7 @@
     "static/media/rev2.webp": "/Sultan_Tracker/static/media/rev2.9dc8ab52.webp",
     "static/media/rev3.webp": "/Sultan_Tracker/static/media/rev3.5a6fa04c.webp",
     "static/media/review.webp": "/Sultan_Tracker/static/media/review.d0ae294d.webp",
-    "static/media/saimul.jpg": "/Sultan_Tracker/static/media/saimul.f183ed0a.jpg",
+    "static/media/saimul.jpg": "/Sultan_Tracker/static/media/saimul.7660578d.jpg",
     "static/media/shamim.jpg": "/Sultan_Tracker/static/media/shamim.c04ba4dc.jpg",
     "static/media/shohel.jpg": "/Sultan_Tracker/static/media/shohel.21c744eb.jpg",
     "static/media/slick-theme.css": "/Sultan_Tracker/static/media/slick.f97e3bbf.svg",
@@ -40,6 +40,6 @@
     "static/css/2.f527e924.chunk.css",
     "static/js/2.3aa1ad8c.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7922586e.chunk.js"
+    "static/js/main.232022f3.chunk.js"
   ]
 }
