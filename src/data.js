@@ -12,6 +12,10 @@ import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
 import rev3 from "./components/Image/rev3.webp";
 import rev4 from "./components/Image/photo.webp";
+import shohel from "./components/Image/shohel.jpg";
+import Shamim from "./components/Image/shamim.jpg";
+import abid from "./components/Image/abid.jpg";
+import saimul from "./components/Image/saimul.jpg";
 
 export const featuredData = [
   {
@@ -168,17 +172,17 @@ export const PricingData = [
 ];
 export const TeamData = [
   {
-    image: Car,
+    image: shohel,
     name: " Sohel Ahmed ",
     post: " Chairmen",
   },
   {
-    image: Car,
+    image: saimul,
     name: " Saimul Hoque ",
     post: " Android Developer",
   },
   {
-    image: Car,
+    image: abid,
     name: " Abid A.Sobhan",
     post: " Ios Developer",
   },
@@ -188,7 +192,7 @@ export const TeamData = [
     post: " Cheif Technician",
   },
   {
-    image: Car,
+    image: Shamim,
     name: " Shamim Ahmed ",
     post: " Iot Engineer",
   },
