@@ -18,6 +18,7 @@ import serviceResrict from "./components/Image/restrict.png";
 import serviceTraffic from "./components/Image/439882.png";
 import servicePower from "./components/Image/power.png";
 import serviceSharing from "./components/Image/sharing.png";
+import serviceEmergency from "./components/Image/sos.png";
 import client from "./components/Image/client.png";
 import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
@@ -148,7 +149,7 @@ export const ServiceData = [
     title: "Speed Violation",
   },
   {
-    image: Live,
+    image: serviceEmergency,
     title: "Emergency Button",
   },
   {
