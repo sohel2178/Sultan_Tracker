@@ -10,6 +10,13 @@ import Car from "./components/Image/pro.png";
 import serviceTracking from "./components/Image/feat1.png";
 import serviceFuel from "./components/Image/fuel_PNG48.png";
 import serviceSpeed from "./components/Image/speed2.png";
+import serviceAlert from "./components/Image/alert.png";
+import serviceNotifications from "./components/Image/notification2.png";
+import serviceSummery from "./components/Image/summery2.png";
+import serviceTrack from "./components/Image/TRACK.png";
+import serviceResrict from "./components/Image/restrict.png";
+import serviceTraffic from "./components/Image/439882.png";
+import servicePower from "./components/Image/power.png";
 import client from "./components/Image/client.png";
 import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
@@ -101,7 +108,7 @@ export const featuredData = [
 ];
 export const ServiceData = [
   {
-    image: Live,
+    image: serviceTrack,
     title: "Live Tracking",
   },
   {
@@ -113,19 +120,19 @@ export const ServiceData = [
     title: "Fuel Monitoring",
   },
   {
-    image: Summery,
+    image: serviceSummery,
     title: "Summery Report",
   },
   {
-    image: Live,
+    image: serviceNotifications,
     title: "Notification",
   },
   {
-    image: Live,
+    image: serviceAlert,
     title: "Alerts",
   },
   {
-    image: Live,
+    image: serviceTraffic,
     title: "Traffic Update",
   },
   {
@@ -137,7 +144,7 @@ export const ServiceData = [
     title: "Emergency Button",
   },
   {
-    image: Live,
+    image: serviceResrict,
     title: "Restrict Boundary",
   },
   {
@@ -145,7 +152,7 @@ export const ServiceData = [
     title: "Vehicle Sharing",
   },
   {
-    image: Live,
+    image: servicePower,
     title: "Power Cut From App and Sms",
   },
 ];
