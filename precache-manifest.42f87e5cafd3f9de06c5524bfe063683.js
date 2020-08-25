@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "199e706a5011e18754b330b4affbf906",
+    "revision": "6a701d541064716e888029bea31111d9",
     "url": "/Sultan_Tracker/index.html"
   },
   {
-    "revision": "d495a863186ad493b4f2",
+    "revision": "359405b61674b112b776",
     "url": "/Sultan_Tracker/static/css/2.f527e924.chunk.css"
   },
   {
-    "revision": "c6a9d1735bc4038ebcde",
+    "revision": "a5dc5bdb9bb12412bc47",
     "url": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "d495a863186ad493b4f2",
-    "url": "/Sultan_Tracker/static/js/2.b118bc8c.chunk.js"
+    "revision": "359405b61674b112b776",
+    "url": "/Sultan_Tracker/static/js/2.2b47f5a9.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/Sultan_Tracker/static/js/2.b118bc8c.chunk.js.LICENSE.txt"
+    "url": "/Sultan_Tracker/static/js/2.2b47f5a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6a9d1735bc4038ebcde",
-    "url": "/Sultan_Tracker/static/js/main.1b2fafec.chunk.js"
+    "revision": "a5dc5bdb9bb12412bc47",
+    "url": "/Sultan_Tracker/static/js/main.10287b08.chunk.js"
   },
   {
     "revision": "9f4eaeee746503a539d1",
@@ -130,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/Sultan_Tracker/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "9898e861a4ce4decfcbc53811467bc62",
+    "url": "/Sultan_Tracker/static/media/sos.9898e861.png"
   },
   {
     "revision": "cb1918c73a0d942cf2bd6f46cabd81fd",
