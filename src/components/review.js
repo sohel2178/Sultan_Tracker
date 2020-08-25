@@ -23,7 +23,7 @@ export default class Fag extends Component {
       slidesToScroll: 1,
     };
     return (
-      <Box style={{ padding: 10, marginTop: 50 }}>
+      <Box id="review" style={{ padding: 10, marginTop: 50 }}>
         <Box>
           <Typography style={{ textAlign: "center" }} variant="h4">
             Customer Reviews
@@ -53,7 +53,7 @@ export default class Fag extends Component {
                           src={item.image}
                           style={{
                             marginTop: 10,
-                            marginLeft: 50,
+                            marginLeft: 10,
                             borderRadius: 10,
                           }}
                         />
