@@ -7,6 +7,9 @@ import Trafic from "./components/Image/traffic.png";
 import Speed from "./components/Image/speed.png";
 import Live from "./components/Image/live2.png";
 import Car from "./components/Image/pro.png";
+import serviceTracking from "./components/Image/feat1.png";
+import serviceFuel from "./components/Image/fuel_PNG48.png";
+import serviceSpeed from "./components/Image/speed2.png";
 import client from "./components/Image/client.png";
 import rev1 from "./components/Image/review.webp";
 import rev2 from "./components/Image/rev2.webp";
@@ -102,15 +105,15 @@ export const ServiceData = [
     title: "Live Tracking",
   },
   {
-    image: Live,
+    image: serviceTracking,
     title: "Milage Report",
   },
   {
-    image: Live,
+    image: serviceFuel,
     title: "Fuel Monitoring",
   },
   {
-    image: Live,
+    image: Summery,
     title: "Summery Report",
   },
   {
@@ -126,7 +129,7 @@ export const ServiceData = [
     title: "Traffic Update",
   },
   {
-    image: Live,
+    image: serviceSpeed,
     title: "Speed Violation",
   },
   {
