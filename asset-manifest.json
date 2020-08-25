@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Sultan_FrontEnd/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Sultan_FrontEnd/static/js/main.866ee2bb.chunk.js",
+    "main.js.map": "/Sultan_FrontEnd/static/js/main.866ee2bb.chunk.js.map",
+    "runtime-main.js": "/Sultan_FrontEnd/static/js/runtime-main.4169b4b9.js",
+    "runtime-main.js.map": "/Sultan_FrontEnd/static/js/runtime-main.4169b4b9.js.map",
+    "static/css/2.ea5a848c.chunk.css": "/Sultan_FrontEnd/static/css/2.ea5a848c.chunk.css",
+    "static/js/2.72a49830.chunk.js": "/Sultan_FrontEnd/static/js/2.72a49830.chunk.js",
+    "static/js/2.72a49830.chunk.js.map": "/Sultan_FrontEnd/static/js/2.72a49830.chunk.js.map",
+    "index.html": "/Sultan_FrontEnd/index.html",
+    "precache-manifest.16e7aea959e7192496dd3e403555db07.js": "/Sultan_FrontEnd/precache-manifest.16e7aea959e7192496dd3e403555db07.js",
+    "service-worker.js": "/Sultan_FrontEnd/service-worker.js",
+    "static/css/2.ea5a848c.chunk.css.map": "/Sultan_FrontEnd/static/css/2.ea5a848c.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Sultan_FrontEnd/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.72a49830.chunk.js.LICENSE.txt": "/Sultan_FrontEnd/static/js/2.72a49830.chunk.js.LICENSE.txt",
+    "static/media/alerts.png": "/Sultan_FrontEnd/static/media/alerts.7fc858bf.png",
+    "static/media/bg1.png": "/Sultan_FrontEnd/static/media/bg1.9a303e79.png",
+    "static/media/fuel.png": "/Sultan_FrontEnd/static/media/fuel.56a46fd1.png",
+    "static/media/live.png": "/Sultan_FrontEnd/static/media/live.617dd1fe.png",
+    "static/media/live2.png": "/Sultan_FrontEnd/static/media/live2.61cd43aa.png",
+    "static/media/logo.png": "/Sultan_FrontEnd/static/media/logo.307995d6.png",
+    "static/media/milage.png": "/Sultan_FrontEnd/static/media/milage.a7bda531.png",
+    "static/media/photo.webp": "/Sultan_FrontEnd/static/media/photo.4183b6c4.webp",
+    "static/media/pro.png": "/Sultan_FrontEnd/static/media/pro.dc615a1b.png",
+    "static/media/rev2.webp": "/Sultan_FrontEnd/static/media/rev2.9dc8ab52.webp",
+    "static/media/rev3.webp": "/Sultan_FrontEnd/static/media/rev3.5a6fa04c.webp",
+    "static/media/review.webp": "/Sultan_FrontEnd/static/media/review.d0ae294d.webp",
+    "static/media/slick-theme.css": "/Sultan_FrontEnd/static/media/slick.f97e3bbf.svg",
+    "static/media/speed.png": "/Sultan_FrontEnd/static/media/speed.cb1918c7.png",
+    "static/media/summery.png": "/Sultan_FrontEnd/static/media/summery.6e3e19da.png",
+    "static/media/traffic.png": "/Sultan_FrontEnd/static/media/traffic.b4fe5412.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4169b4b9.js",
+    "static/css/2.ea5a848c.chunk.css",
+    "static/js/2.72a49830.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.866ee2bb.chunk.js"
+  ]
+}
