@@ -5,7 +5,7 @@ import Fuel from "./Image/Feature/fuel.png";
 import Summery from "./Image/Feature/summery.png";
 import Alerts from "./Image/Feature/alerts.png";
 import Trafic from "./Image/Feature/traffic.jpg";
-import Speed from "./Image/Feature/speed.png";
+import Speed from "./Image/Feature/speed violation.png";
 import Live from "./Image/Feature/live2.png";
 import Emergency from "./Image/Feature/sos.png";
 import Sharing from "./Image/Feature/carsharing.png";

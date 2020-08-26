@@ -22,8 +22,10 @@ const FeatureItem = ({ image, title, description, animation, index }) => {
         flexGrow="1"
         style={{ maxWidth: "50%", minWidth: "50%" }}
         order={2}
+        justifyContent="center"
+        alignItems="center"
       >
-        <img src={image} style={{ width: "80%" }} />
+        <img src={image} style={{ width: 400, height: 300 }} />
       </Box>
 
       <Box
