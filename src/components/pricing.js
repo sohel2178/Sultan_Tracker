@@ -53,7 +53,7 @@ const Pricing = () => {
                     {item.title}
                   </Typography>
                   <Typography
-                    variant="h6"
+                    variant="body1"
                     style={{ textAlign: "center", color: "#FFFFFF" }}
                   >
                     {item.label}
@@ -65,7 +65,7 @@ const Pricing = () => {
                     {item.price}
                   </Typography>
                   <Typography
-                    variant="h5"
+                    variant="body1"
                     style={{
                       textAlign: "center",
                       margin: 50,

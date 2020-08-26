@@ -8,7 +8,7 @@ import CardContent from "@material-ui/core/CardContent";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Avatar from "@material-ui/core/Avatar";
-import Live from "./Image/review.webp";
+
 import { Review } from "../data";
 
 export default class Fag extends Component {

@@ -13,34 +13,33 @@ const TopClients = () => {
         <Typography variant="h2">Our Top Clients</Typography>
       </Box>
 
-      <Grid container spacing={1}>
+      <Grid container justify="center" spacing={1}>
         {Client.map((item, index) => {
           return (
-            <Grid item xs={2} style={{ padding: 10 }}>
-              <Box
-                display="flex"
-                key={index}
-                flexDirection="column"
-                alignItems="center"
+            <Grid
+              key="index"
+              item
+              container
+              xs={2}
+              style={{ padding: 10, marginTop: 10 }}
+            >
+              <Card
+                style={{
+                  height: 180,
+                  width: "100%",
+                  backgroundColor: grey[200],
+                }}
               >
-                <Card
+                <img
+                  src={item.image}
                   style={{
-                    height: 180,
-                    width: "100%",
-                    backgroundColor: grey[200],
-                  }}
-                >
-                  <img
-                    src={item.image}
-                    style={{
-                      padding: 10,
+                    padding: 10,
 
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  ></img>
-                </Card>
-              </Box>
+                    width: "100%",
+                    height: "100%",
+                  }}
+                ></img>
+              </Card>
             </Grid>
           );
         })}

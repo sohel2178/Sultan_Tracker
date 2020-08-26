@@ -67,9 +67,9 @@ const OurService = () => {
                         backgroundColor: grey[200],
                       }}
                     >
-                      <Typography variant="h6" style={{ textAlign: "center" }}>
-                        {item.title}
-                      </Typography>
+                      <Box display="flex" justifyContent="center">
+                        <Typography variant="overline">{item.title}</Typography>
+                      </Box>
                     </Card>
                   </Box>
                 </Link>

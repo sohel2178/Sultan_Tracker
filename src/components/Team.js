@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import Live from "./Image/live2.png";
+import Live from "../Image/live2.png";
 import Card from "@material-ui/core/Card";
 import { grey } from "@material-ui/core/colors";
 import Avatar from "@material-ui/core/Avatar";

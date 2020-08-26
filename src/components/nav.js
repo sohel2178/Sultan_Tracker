@@ -6,7 +6,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
-import Image from "./Image/logo.png";
+import Image from "../Image/logo.png";
 
 import Grid from "@material-ui/core/Grid";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -59,7 +59,7 @@ const Nav = (props) => {
               <Button color="Black">Home</Button>
               <Button color="Black">
                 <Link
-                  style={{ activeClass: "1px solid #333" }}
+                  style={{ activeClass: "1px solid black" }}
                   activeClass="active"
                   to="Service"
                   spy={true}
