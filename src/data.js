@@ -9,6 +9,7 @@ import Speed from "./Image/Feature/speed violation.png";
 import Live from "./Image/Feature/live2.png";
 import Emergency from "./Image/Feature/sos.png";
 import Sharing from "./Image/Feature/carsharing.png";
+import Power from "./Image/Feature/power.png";
 import Car from "./Image/pro.png";
 import serviceTracking from "./Image/Service/feat1.png";
 import serviceFuel from "./Image/Service/fuel_PNG48.png";
@@ -33,6 +34,8 @@ import shohel from "./Image/Team/shohel.jpg";
 import Shamim from "./Image/Team/shamim.jpg";
 import abid from "./Image/Team/abid.jpg";
 import saimul from "./Image/Team/saimul.jpg";
+import Kashem from "./Image/Team/kasam.jpeg";
+import Rumon from "./Image/Team/rrr.jpeg";
 
 export const featuredData = [
   {
@@ -113,7 +116,7 @@ export const featuredData = [
     animation: "fade-right",
   },
   {
-    image: Milage,
+    image: Power,
     title: "Power Cut From App and Sms",
     description:
       " This effective alert will let you know when somebody tries to remove the device ",
@@ -211,7 +214,7 @@ export const TeamData = [
     post: " Ios Developer",
   },
   {
-    image: Car,
+    image: Kashem,
     name: " Abu Kashem ",
     post: " Cheif Technician",
   },
@@ -221,7 +224,7 @@ export const TeamData = [
     post: " Iot Engineer",
   },
   {
-    image: Car,
+    image: Rumon,
     name: " Rumon  ",
     post: "Web Developer",
   },
