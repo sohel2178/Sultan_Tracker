@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sultan_Tracker/precache-manifest.c0507001d1c46035ffe16f43ebc58024.js"
+  "/Sultan_Tracker/precache-manifest.2218789769ede8e0f787a475b6d382bd.js"
 );
 
 self.addEventListener('message', (event) => {
