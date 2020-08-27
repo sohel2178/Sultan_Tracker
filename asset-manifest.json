@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Sultan_Tracker/static/js/main.06a1a138.chunk.js",
-    "main.js.map": "/Sultan_Tracker/static/js/main.06a1a138.chunk.js.map",
+    "main.js": "/Sultan_Tracker/static/js/main.dae5c196.chunk.js",
+    "main.js.map": "/Sultan_Tracker/static/js/main.dae5c196.chunk.js.map",
     "runtime-main.js": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js",
     "runtime-main.js.map": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js.map",
     "static/css/2.f527e924.chunk.css": "/Sultan_Tracker/static/css/2.f527e924.chunk.css",
-    "static/js/2.3458e1b1.chunk.js": "/Sultan_Tracker/static/js/2.3458e1b1.chunk.js",
-    "static/js/2.3458e1b1.chunk.js.map": "/Sultan_Tracker/static/js/2.3458e1b1.chunk.js.map",
+    "static/js/2.45920887.chunk.js": "/Sultan_Tracker/static/js/2.45920887.chunk.js",
+    "static/js/2.45920887.chunk.js.map": "/Sultan_Tracker/static/js/2.45920887.chunk.js.map",
     "index.html": "/Sultan_Tracker/index.html",
-    "precache-manifest.c8f73934d5c02bf33b5324e7538c0f78.js": "/Sultan_Tracker/precache-manifest.c8f73934d5c02bf33b5324e7538c0f78.js",
+    "precache-manifest.c0507001d1c46035ffe16f43ebc58024.js": "/Sultan_Tracker/precache-manifest.c0507001d1c46035ffe16f43ebc58024.js",
     "service-worker.js": "/Sultan_Tracker/service-worker.js",
     "static/css/2.f527e924.chunk.css.map": "/Sultan_Tracker/static/css/2.f527e924.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.3458e1b1.chunk.js.LICENSE.txt": "/Sultan_Tracker/static/js/2.3458e1b1.chunk.js.LICENSE.txt",
+    "static/js/2.45920887.chunk.js.LICENSE.txt": "/Sultan_Tracker/static/js/2.45920887.chunk.js.LICENSE.txt",
     "static/media/439882.png": "/Sultan_Tracker/static/media/439882.597c824e.png",
     "static/media/TRACK.png": "/Sultan_Tracker/static/media/TRACK.18b414a3.png",
     "static/media/abid.jpg": "/Sultan_Tracker/static/media/abid.14a2ca8e.jpg",
@@ -54,8 +54,8 @@
   "entrypoints": [
     "static/js/runtime-main.48b5f8d0.js",
     "static/css/2.f527e924.chunk.css",
-    "static/js/2.3458e1b1.chunk.js",
+    "static/js/2.45920887.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.06a1a138.chunk.js"
+    "static/js/main.dae5c196.chunk.js"
   ]
 }
