@@ -73,7 +73,7 @@ const Homepage = () => {
       <Box display="flex" flexDirection="column" style={{ height: 500 }}>
         <TopClients />
       </Box>
-      <Box display="flex" flexDirection="column" style={{ height: 500 }}>
+      <Box display="flex" flexDirection="column" style={{ height: 550 }}>
         <Contact />
       </Box>
     </Box>

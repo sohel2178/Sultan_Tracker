@@ -7,6 +7,7 @@ const Contact = () => {
   const [contact, setContact] = useState({
     name: "",
     email: "",
+    mobile: "",
     message: "",
   });
 
@@ -18,6 +19,7 @@ const Contact = () => {
 
     newContact.name !== "" &&
     newContact.email !== "" &&
+    newContact.mobile !== "" &&
     newContact.message !== ""
       ? setdisable(false)
       : setdisable(true);
@@ -35,10 +37,14 @@ const Contact = () => {
       </Typography>
 
       <Box display="flex" style={{ margin: 20 }}>
-        <Box display="flex" flexDirection="column" flexGrow="1">
+        <Box
+          display="flex"
+          flexDirection="column"
+          flexGrow="1"
+          style={{ marginRight: 10 }}
+        >
           <Typography variant="h6">Name</Typography>
           <TextField
-            style={{ width: "70ch" }}
             variant="outlined"
             label="Name:"
             name="name"
@@ -46,10 +52,14 @@ const Contact = () => {
             onChange={handleChange}
           />
         </Box>
-        <Box display="flex" flexDirection="column" flexGrow="1">
+        <Box
+          display="flex"
+          flexDirection="column"
+          flexGrow="1"
+          style={{ marginLeft: 10 }}
+        >
           <Typography variant="h6">Email</Typography>
           <TextField
-            style={{ width: "70ch" }}
             variant="outlined"
             label="Email:"
             name="email"
@@ -58,11 +68,22 @@ const Contact = () => {
           />
         </Box>
       </Box>
+      <Box style={{ margin: 20 }}>
+        <Typography variant="h6">Mobile</Typography>
+        <TextField
+          fullWidth
+          variant="outlined"
+          label="Mobile:"
+          name="mobile"
+          value={contact.mobile}
+          onChange={handleChange}
+        />
+      </Box>
       <Box display="flex" style={{ margin: 20 }}>
-        <Box display="flex" flexDirection="column">
+        <Box display="flex" flexDirection="column" style={{ width: "100%" }}>
           <Typography variant="h6">Message</Typography>
           <textarea
-            style={{ margin: "0px", width: "1170px", height: "155px" }}
+            style={{ margin: "0px", width: "100%", height: "155px" }}
             variant="outlined"
             label="Message:"
             name="message"
