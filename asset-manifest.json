@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Sultan_Tracker/static/js/main.100046c9.chunk.js",
-    "main.js.map": "/Sultan_Tracker/static/js/main.100046c9.chunk.js.map",
+    "main.js": "/Sultan_Tracker/static/js/main.e198b925.chunk.js",
+    "main.js.map": "/Sultan_Tracker/static/js/main.e198b925.chunk.js.map",
     "runtime-main.js": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js",
     "runtime-main.js.map": "/Sultan_Tracker/static/js/runtime-main.48b5f8d0.js.map",
     "static/css/2.f527e924.chunk.css": "/Sultan_Tracker/static/css/2.f527e924.chunk.css",
     "static/js/2.9c22d02a.chunk.js": "/Sultan_Tracker/static/js/2.9c22d02a.chunk.js",
     "static/js/2.9c22d02a.chunk.js.map": "/Sultan_Tracker/static/js/2.9c22d02a.chunk.js.map",
     "index.html": "/Sultan_Tracker/index.html",
-    "precache-manifest.2218789769ede8e0f787a475b6d382bd.js": "/Sultan_Tracker/precache-manifest.2218789769ede8e0f787a475b6d382bd.js",
+    "precache-manifest.3a919b7bca248cc166b1d70b6a1c77b2.js": "/Sultan_Tracker/precache-manifest.3a919b7bca248cc166b1d70b6a1c77b2.js",
     "service-worker.js": "/Sultan_Tracker/service-worker.js",
     "static/css/2.f527e924.chunk.css.map": "/Sultan_Tracker/static/css/2.f527e924.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/Sultan_Tracker/static/css/main.5ecd60fb.chunk.css.map",
@@ -29,8 +29,8 @@
     "static/media/livetracking.png": "/Sultan_Tracker/static/media/livetracking.1765e387.png",
     "static/media/logo.png": "/Sultan_Tracker/static/media/logo.307995d6.png",
     "static/media/mahindra.png": "/Sultan_Tracker/static/media/mahindra.bb33a323.png",
-    "static/media/milage.png": "/Sultan_Tracker/static/media/milage.0feb726b.png",
-    "static/media/notification2.png": "/Sultan_Tracker/static/media/notification2.ffc85bb1.png",
+    "static/media/milage.png": "/Sultan_Tracker/static/media/milage.ea346b6c.png",
+    "static/media/notification2.png": "/Sultan_Tracker/static/media/notification2.39e74d1f.png",
     "static/media/notifications.png": "/Sultan_Tracker/static/media/notifications.524fa7c9.png",
     "static/media/photo.webp": "/Sultan_Tracker/static/media/photo.4183b6c4.webp",
     "static/media/power.png": "/Sultan_Tracker/static/media/power.ea81502f.png",
@@ -58,6 +58,6 @@
     "static/css/2.f527e924.chunk.css",
     "static/js/2.9c22d02a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.100046c9.chunk.js"
+    "static/js/main.e198b925.chunk.js"
   ]
 }
